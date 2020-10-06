@@ -1,0 +1,22 @@
+version: "3"
+services:
+  node:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    image: simplifyurl
+    ports:
+      - "4100:4100"
+    depends_on:
+      - mongo
+    links:
+      - mongo
+  mongo:
+    container_name: mongodb
+    image: mongo
+    volumes:
+      - data-volume:/data/db
+    ports:
+      - "27017:27017"
+volumes:
+  data-volume:
