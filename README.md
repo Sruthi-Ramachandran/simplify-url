@@ -17,7 +17,7 @@ Install the following software to run the project locally or on docker container
     * Run `# npm install`
     * Start the node server `# npm start`
     #### Docker install
-    * Run `# docker-compose up`
+    * Run `# docker-compose up -d`
 
     ![Docker Page](https://github.com/Sruthi-Ramachandran/simplify-url/blob/main/doc_img/docker.PNG)
 
@@ -71,7 +71,7 @@ Install the following software to run the project locally or on docker container
 ### Useful docker commands to manage the project
 |DOCKER COMMAND|DESCRIPTION|
 |-|-|
-|docker-composer up -d|Run the docker-compose to create the project containers in debug mode.|
+|docker-composer up -d|Run the docker-compose to create the project containers in background mode.|
 |docker-compose up --build -d|Build a new image and create the containers. Require if code changes are made.|
 |docker-compose down -v|Delete the conatiners and the persistent volumes.|
 
