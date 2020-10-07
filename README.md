@@ -26,6 +26,8 @@ Install the following software to run the project locally or on docker container
 ### Project Testing
 * Run `npm test` locally
 
+![Test Run](https://github.com/Sruthi-Ramachandran/simplify-url/blob/main/doc_img/test.PNG)
+
 > **Note:** Tests are not supported by Docker.
 
 ### Project GUI
