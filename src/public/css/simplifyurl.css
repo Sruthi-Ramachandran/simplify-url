@@ -512,3 +512,23 @@ a:hover {
     justify-content: space-between;
     align-items: center;
 }
+
+.about-bg{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(255,255,255,1) 100%);
+}
+.about-title{
+    display:flex;
+    justify-content: center;
+}
+
+.ab-header{
+    margin: 5px 0 5px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.p-content{
+    margin-left: 100px;
+    font-weight: bold;
+}

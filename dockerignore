@@ -1,0 +1,9 @@
+# docker ignore
+.env
+.git
+.gitignore
+node_modules
+package-lock.json
+test
+Dockerfile
+docker-compose.yml
