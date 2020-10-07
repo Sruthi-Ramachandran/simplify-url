@@ -19,6 +19,8 @@ Install the following software to run the project locally or on docker container
     #### Docker install
     * Run `# docker-compose up`
 
+    ![Docker Page](https://github.com/Sruthi-Ramachandran/simplify-url/blob/main/doc_img/docker.PNG)
+
 * Goto [http://localhost:4100](http://localhost:4100)
 
 ### Project Testing
@@ -29,29 +31,41 @@ Install the following software to run the project locally or on docker container
 ### Project GUI
 * **Simplify URL/ Shorten**
 
+    ![GUI Page](https://github.com/Sruthi-Ramachandran/simplify-url/blob/main/doc_img/gui_test_url.PNG)
+
     URL - Insert valid URL in textbox and submit.
     It returns the simplified URL as a link.
 
-    Example:
+    **Example:**
     URL- https://github.com 
 
     Simplified URL - http://localhost:4100/thwvXHS
 
 * **Search the existing URL**
 
+    ![Search URL](https://github.com/Sruthi-Ramachandran/simplify-url/blob/main/doc_img/gui_search_1.PNG)
+
     Enter Long/Short URL or keywords. 
     It returns matching URL 
+
+    ![Search URL](https://github.com/Sruthi-Ramachandran/simplify-url/blob/main/doc_img/gui_search_2.PNG)
 
 * **View the list of existing URL**
 
     Click on the View Button on left navigation bar.
     It returns the List of URLs from database
 
+    ![Navigation](https://github.com/Sruthi-Ramachandran/simplify-url/blob/main/doc_img/gui_nav_bar.PNG)
+
+    ![View Page](https://github.com/Sruthi-Ramachandran/simplify-url/blob/main/doc_img/gui_view_list.PNG)
+
 * **Delete URL**
 
     Click on the delete button in the View page.
 
+    ![View Page](https://github.com/Sruthi-Ramachandran/simplify-url/blob/main/doc_img/gui_view_list.PNG)
 
+    ![Delete Page](https://github.com/Sruthi-Ramachandran/simplify-url/blob/main/doc_img/gui_delete.PNG)
 
 
 ### Useful docker commands to manage the project
